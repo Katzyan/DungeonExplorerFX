@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/Cinzel/Cinzel-Regular.ttf");
+}
+@font-face{
+    font-family: "MedievalSharp";
+    src: url("../fonts/MedievalSharp/MedievalSharp-Regular.ttf");
+}
+
+#container {
+    -fx-background-color: black;
+}
+
+#startScreen {
+    -fx-background-image: url("../images/startScreen.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+}
+
+#dialogueScreen {
+    -fx-background-image: url("../images/dialogueImage.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+}
+
+#dialogueText {
+    -fx-fill: gold;
+    -fx-font-family: "MedievalSharp";
+    -fx-font-size: 4em;
+}
+
+#newGame, #enterDungeon {
+    -fx-border-color: gold;
+    -fx-border-width: 3px;
+    -fx-border-radius: 5px;
+    -fx-background-color: transparent;
+    -fx-font-size: 40px;
+    -fx-text-fill: gold;
+    -fx-font-family: "MedievalSharp";
+}
+
+#newGame:hover, #enterDungeon:hover{
+    -fx-background-color: darkgoldenrod;
+    -fx-text-fill:black;
+}
+
+#room1{
+    -fx-background-color: #141925;
+}
